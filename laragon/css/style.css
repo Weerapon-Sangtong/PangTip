@@ -1,0 +1,23 @@
+.hfx {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.hfx:hover {
+    transform: translateY(-5px); /* ขยับการ์ดขึ้นเล็กน้อยเมื่อชี้เมาส์ */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* เพิ่มเงาเมื่อชี้เมาส์ */
+}
+.fdate{
+    font-size: 12px;
+    font-style: italic;
+}
+
+.truncate-text {
+    white-space: nowrap;        /* บังคับให้ข้อความแสดงในบรรทัดเดียว */
+    overflow: hidden;           /* ซ่อนข้อความที่ยาวเกินพื้นที่ */
+    text-overflow: ellipsis;    /* แสดง ... เมื่อข้อความยาวเกิน */
+    max-width: 300px;           /* กำหนดความกว้างสูงสุด */
+}
+
+.text-center{
+    display: flex;
+    justify-content: center; /* จัดกลางแนวนอน */
+}
